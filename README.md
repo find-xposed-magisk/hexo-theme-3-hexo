@@ -4,8 +4,6 @@ hexo-theme-3-hexo
 
 如果想要体验手机浏览效果，可以扫以下二维码：
 
-![二维码图片_1月28日11时25分02秒.png](https://i.loli.net/2020/01/28/OqXkYuf8ipED6QM.png)
-
 配置及说明： [3-hexo使用说明](http://yelog.org/2017/03/23/3-hexo-instruction/)  
 功能更新日志：[3-hexo开发日志-持续更新](http://yelog.org/2017/03/13/3-hexo-logs/)  
 ——————————————          
