@@ -129,7 +129,7 @@ visit_counter:
 ##########自定义样式设置##############
 # Table of contents | 文章目录
 toc:
-  max_depth: 3  # 1 - 6 (h1-h6) 目录最大级数
+  max_depth: 6  # 1 - 6 (h1-h6) 目录最大级数
 
 #文章列表 鼠标移上去的样式, 为空时使用默认效果
 article_list:
