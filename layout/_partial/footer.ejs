@@ -41,9 +41,18 @@
         <%}%>
 
         /*访问数量*/
-        <%if(theme.visit_counter && theme.visit_counter.on) {%>
-        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
-        <%}%>
+        // <%if(theme.visit_counter && theme.visit_counter.on) {%>
+        // $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        // <%}%>
+
+        <% if (theme.visit_counter && theme.visit_counter.page_visit) { %>
+        $(document).ready(function() {
+            var pageVisitElement = $("#busuanzi_value_page_pv");
+            if (pageVisitElement.length > 0) {
+                pageVisitElement.text("<%= '火爆' %>");
+            }
+        });
+        <% } %>
 
         /*代码高亮，行号对齐*/
         $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
