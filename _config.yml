@@ -212,7 +212,7 @@ mathjax:
 # Mermaid 支持
 mermaid:
   on: false
-  cdn: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/mermaid.min.js
+  cdn: //git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/mermaid.min.js
   # cdn: //cdn.jsdelivr.net/npm/mermaid@8.4.2/dist/mermaid.min.js
   #cdn: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js
   options: # 更多配置信息可以参考 https://mermaidjs.github.io/#/mermaidAPI
@@ -301,15 +301,15 @@ CDN:
   # photoswipe_css: //cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css
   # photoswipe_skin_css: //cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css
 
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/animate.min.css
+  animate: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/animate.min.css
   photoswipe_skin_css: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/default-skin.min.css
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/highlight.pack.min.js
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/jquery.cookie.min.js
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/jquery.min.js
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/jquery.pjax.min.js
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/MathJax.js
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/nprogress.min.js
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/photoswipe-ui-default.min.js
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/photoswipe.min.css
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/photoswipe.min.js
+  highlight: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/highlight.pack.min.js
+  jquery_cookie: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/jquery.cookie.min.js
+  jquery: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/jquery.min.js
+  pjax: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/jquery.pjax.min.js
+  mathjax: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/MathJax.js
+  nprogres_js: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/nprogress.min.js
+  photoswipe_ui_js: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/photoswipe-ui-default.min.js
+  photoswipe_css: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/photoswipe.min.css
+  photoswipe_js: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/photoswipe.min.js
 ##############################
