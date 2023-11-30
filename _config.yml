@@ -302,7 +302,7 @@ CDN:
   # photoswipe_skin_css: //cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css
 
   https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/animate.min.css
-  https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/default-skin.min.css
+  photoswipe_skin_css: https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/default-skin.min.css
   https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/highlight.pack.min.js
   https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/jquery.cookie.min.js
   https://git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/jquery.min.js
