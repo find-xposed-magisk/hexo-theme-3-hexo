@@ -1,3 +1,7 @@
+<script>
+    var currentYear = new Date().getFullYear();
+    document.getElementById("dynamicYear").textContent = currentYear;
+</script>
 <script src="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/jquery.pjax.js?v=<%=theme.version%>" ></script>
 <% if (theme.img_resize == 'photoSwipe') {%>
 <script src="<%=theme.CDN.photoswipe_js%>"></script>
@@ -602,4 +606,4 @@
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
-<script defer src="/_vercel/insights/script.js"></script>
+// <script defer src="/_vercel/insights/script.js"></script>
