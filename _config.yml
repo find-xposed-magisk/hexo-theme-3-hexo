@@ -212,7 +212,6 @@ mathjax:
 # Mermaid 支持
 mermaid:
   on: false
-  # cdn: //git.blog.jiangqing.xyz/网页存根/静态资源/hexo/themes/3hexo/mermaid.min.js
   cdn: //cdn.bilicdn.tk/npm/mermaid@8.4.2/dist/mermaid.min.js
   #cdn: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js
   options: # 更多配置信息可以参考 https://mermaidjs.github.io/#/mermaidAPI
